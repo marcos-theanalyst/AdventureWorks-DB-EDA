@@ -20,6 +20,7 @@ Each `sql` file contains DDL statements to create the corresponding table.
 
 ## Breakdown
 
+#Extracting Internet Sales Fact table
 ```sql
 SELECT 
   [ProductKey], 

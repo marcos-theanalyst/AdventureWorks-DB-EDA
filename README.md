@@ -17,3 +17,24 @@ The data warehouse consists of one central fact table and multiple supporting di
 ## File Structure
 
 Each `sql` file contains DDL statements to create the corresponding table.
+
+## Breakdown
+
+```sql
+SELECT 
+  [ProductKey], 
+  [OrderDateKey], 
+  [DueDateKey], 
+  [ShipDateKey], 
+  [CustomerKey], 
+  [SalesOrderNumber], 
+  [SalesAmount] 
+FROM 
+  [AdventureWorksDW2022].[dbo].[FactInternetSales] 
+WHERE 
+  LEFT (OrderDateKey, 4) >= YEAR(
+    GETDATE()
+  ) -2 
+ORDER BY 
+  OrderDateKey
+```

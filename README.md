@@ -16,7 +16,7 @@ The data warehouse consists of one central fact table and multiple supporting di
 
 ## File Structure
 
-Each `sql` file contains DDL statements to create the corresponding table.
+Each `sql` file contains DDL statements to create the corresponding table, in addition to the queries, I exported each table as CSV which were used to create the [`Internet Sales Dashboard`](https://github.com/marcos-theanalyst/Internet-Sales-Dashboard/tree/main)
 
 ## Breakdown
 

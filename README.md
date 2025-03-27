@@ -1,4 +1,4 @@
-# Internet Sales Data Warehouse
+# Internet Sales EDA
 
 This project provides the SQL schema definitions for a data warehouse built to analyze internet sales performance. It uses a star schema structure, optimized for querying and business intelligence applications.
 
